@@ -4,7 +4,7 @@ name: Lanscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "0.2.0"
+version: "0.3.0"
 port: 4545
 description: >-
   Network monitoring for your home: speed test history, connected devices
@@ -17,8 +17,8 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/umbrel-apps/issues
 gallery: []
 releaseNotes: >-
-  Replaces ntopng with Lanscape's own app. This release is the starting
-  point: the dashboard shell, with features to follow.
+  Run a speed test on demand and see your latest download, upload, ping
+  and jitter.
 dependencies: []
 path: ""
 defaultUsername: ""

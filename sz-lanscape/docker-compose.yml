@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   server:
-    image: ghcr.io/suarezluis/lanscape:0.1.0
+    image: ghcr.io/suarezluis/lanscape:0.3.0
     restart: on-failure
     # Host network so device discovery sees the real LAN, not a Docker bridge
     network_mode: host
