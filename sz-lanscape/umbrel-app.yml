@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: sz-lanscape
+name: Lanscape
+tagline: See what's happening on your home network
+icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
+category: networking
+version: "0.1.0"
+port: 4545
+description: >-
+  Network monitoring for your home: live traffic, connected devices and
+  bandwidth history, powered by ntopng.
+
+  Lanscape watches traffic to and from your Umbrel. To see your whole
+  network, enable port mirroring on your switch.
+developer: SuarezLuis
+website: https://github.com/SuarezLuis/umbrel-apps
+submitter: SuarezLuis
+submission: https://github.com/SuarezLuis/umbrel-apps
+repo: https://github.com/SuarezLuis/umbrel-apps
+support: https://github.com/SuarezLuis/umbrel-apps/issues
+gallery: []
+releaseNotes: >-
+  First version: ntopng on the host network.
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
