@@ -2,8 +2,10 @@ version: "3.7"
 
 services:
   server:
-    image: ghcr.io/suarezluis/lanscape:0.1.0
+    image: ghcr.io/suarezluis/lanscape:1.0.0@sha256:0617bd603704de6b022912d1b12787ce563602b0465804138e9f7be8d64567ee
     restart: on-failure
+    # Node runs as PID 1; init reaps the speed test processes it starts
+    init: true
     # Host network so device discovery sees the real LAN, not a Docker bridge
     network_mode: host
     environment:
