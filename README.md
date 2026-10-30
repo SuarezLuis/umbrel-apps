@@ -12,4 +12,4 @@ https://github.com/SuarezLuis/umbrel-apps
 
 ## Apps
 
-- **Lanscape** (`sz-lanscape`): home network monitoring (traffic, devices, bandwidth), built on ntopng. Web UI on port 4545.
+- **Lanscape** (`sz-lanscape`): home network monitoring (speed tests, devices, network overview). Source: [SuarezLuis/lanscape](https://github.com/SuarezLuis/lanscape). Web UI on port 4545.

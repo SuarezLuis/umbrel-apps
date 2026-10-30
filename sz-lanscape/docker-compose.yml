@@ -2,13 +2,11 @@ version: "3.7"
 
 services:
   server:
-    image: ntop/ntopng:latest
+    image: ghcr.io/suarezluis/lanscape:0.1.0
     restart: on-failure
-    # Host network so ntopng sees the Umbrel's real interface, not a Docker bridge
+    # Host network so device discovery sees the real LAN, not a Docker bridge
     network_mode: host
-    cap_add:
-      - NET_ADMIN
-      - NET_RAW
+    environment:
+      PORT: 4545
     volumes:
-      - ${APP_DATA_DIR}/data:/var/lib/ntopng
-    command: ["-i", "eno1", "-w", "4545", "--dont-change-user"]
+      - ${APP_DATA_DIR}/data:/data
