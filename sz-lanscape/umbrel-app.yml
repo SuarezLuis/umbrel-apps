@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.0.1"
+version: "1.1.0"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -17,7 +17,7 @@ description: >-
   webhook.
 
 
-  LANscape asks you to set a password the first time you open it.
+  LANscape uses the password Umbrel shows for it in the app's menu.
 developer: SuarezLuis
 website: https://github.com/SuarezLuis/lanscape
 submitter: SuarezLuis
@@ -26,10 +26,18 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  Polish from 1.0: device status badges no longer get cut off, chart axes
-  are easier to read on long ranges, the Notifications page now opens with
-  your recent alerts, and the About page shows its images.
+  LANscape now starts with the password Umbrel shows for it in the app's
+  menu, instead of asking the first visitor to set one. If you already set a
+  password it keeps working; Settings has a button to switch to Umbrel's. Forgot
+  your password? Set RESET_PASSWORD to yes in LANscape's app settings and
+  restart.
+environment:
+  - name: RESET_PASSWORD
+    services:
+      - server
+    note: Set to yes and restart LANscape to reset its password to the one Umbrel shows. Clear it afterwards, or each restart resets it again.
 dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+deterministicPassword: true

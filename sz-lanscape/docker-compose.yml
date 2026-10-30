@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   server:
-    image: ghcr.io/suarezluis/lanscape:1.0.1@sha256:5495804907df281ba223d26965a5c767085aa81a90e1e41b1158d4b537de604d
+    image: ghcr.io/suarezluis/lanscape:1.1.0@sha256:2df719aa15c335bec266bec1c4e594119937ef9085a92d7050fc702bfdad9ae4
     restart: on-failure
     # Node runs as PID 1; init reaps the speed test processes it starts
     init: true
@@ -10,5 +10,7 @@ services:
     network_mode: host
     environment:
       PORT: 4545
+      # Umbrel's per-install password, shown on the dashboard (deterministicPassword); seeds LANscape's password
+      APP_PASSWORD: $APP_PASSWORD
     volumes:
       - ${APP_DATA_DIR}/data:/data
