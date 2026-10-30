@@ -1,24 +1,36 @@
 manifestVersion: 1
 id: sz-lanscape
-name: Lanscape
+name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "0.2.0"
+version: "1.0.0"
 port: 4545
 description: >-
-  Network monitoring for your home: speed test history, connected devices
-  and a network overview.
+  LANscape watches your home network from your Umbrel. Run speed tests on
+  demand or on a schedule and see how your speed and latency change over
+  time. A ping check every minute tracks router and internet latency and
+  packet loss with almost no data. Every device on your network is listed
+  with its maker and name, and you can identify unknown ones by switching
+  them off and on. Alerts for slow speeds, packet loss, new devices or a
+  device going offline reach you through ntfy, Telegram, Discord, Slack or a
+  webhook.
+
+
+  LANscape asks you to set a password the first time you open it.
 developer: SuarezLuis
-website: https://github.com/SuarezLuis/umbrel-apps
+website: https://github.com/SuarezLuis/lanscape
 submitter: SuarezLuis
 submission: https://github.com/SuarezLuis/umbrel-apps
 repo: https://github.com/SuarezLuis/umbrel-apps
-support: https://github.com/SuarezLuis/umbrel-apps/issues
+support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  Replaces ntopng with Lanscape's own app. This release is the starting
-  point: the dashboard shell, with features to follow.
+  LANscape 1.0: speed tests with history and scheduling, minute-by-minute
+  ping checks, a device list with names, makers, history and offline alerts,
+  notification rules with ntfy, Telegram, Discord, Slack and webhook
+  delivery, and password protection. On first open you'll be asked to set
+  a password.
 dependencies: []
 path: ""
 defaultUsername: ""
