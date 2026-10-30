@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.0.0"
+version: "1.0.1"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,11 +26,9 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  LANscape 1.0: speed tests with history and scheduling, minute-by-minute
-  ping checks, a device list with names, makers, history and offline alerts,
-  notification rules with ntfy, Telegram, Discord, Slack and webhook
-  delivery, and password protection. On first open you'll be asked to set
-  a password.
+  Polish from 1.0: device status badges no longer get cut off, chart axes
+  are easier to read on long ranges, the Notifications page now opens with
+  your recent alerts, and the About page shows its images.
 dependencies: []
 path: ""
 defaultUsername: ""
