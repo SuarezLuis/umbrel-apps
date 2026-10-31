@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.3.0"
+version: "1.4.0"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,10 +26,10 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  Get an alert when a chosen device comes online after time away, like a phone
-  arriving home: open the device on the Network page and set "Alert when
-  online". You can also delete a device; the next time it joins, it's listed as
-  new and you get a new-device alert.
+  New Integrations page, starting with Pi-hole. Connect your Pi-hole with an app
+  password to name devices that don't announce a name, see what each device
+  looks up (and how much Pi-hole blocks) in its panel on the Network page, and
+  stop sleepy phones from showing as away when they're still using the network.
 environment:
   - name: RESET_PASSWORD
     services:
