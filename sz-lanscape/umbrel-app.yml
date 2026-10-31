@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.1.0"
+version: "1.1.1"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,11 +26,9 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  LANscape now starts with the password Umbrel shows for it in the app's
-  menu, instead of asking the first visitor to set one. If you already set a
-  password it keeps working; Settings has a button to switch to Umbrel's. Forgot
-  your password? Set RESET_PASSWORD to yes in LANscape's app settings and
-  restart.
+  The latency chart on a new install shows every ping check instead of one or
+  two points: short histories now chart by the minute or 10 minutes, and long
+  ones the same as before.
 environment:
   - name: RESET_PASSWORD
     services:
