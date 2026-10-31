@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.2.0"
+version: "1.3.0"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,12 +26,10 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  Back up everything to one file and restore it, optionally encrypted with a
-  passphrase, from Settings. New-device alerts now start right after the first
-  scan instead of after a day, and several devices found at once come as one
-  alert. Phones and laptops that switch to a new private address stay the same
-  device. A new, optional alert tells you when a device you haven't marked as
-  known comes back. Sign-in ignores spaces around a pasted password.
+  Get an alert when a chosen device comes online after time away, like a phone
+  arriving home: open the device on the Network page and set "Alert when
+  online". You can also delete a device; the next time it joins, it's listed as
+  new and you get a new-device alert.
 environment:
   - name: RESET_PASSWORD
     services:
