@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   server:
-    image: ghcr.io/suarezluis/lanscape:1.10.0@sha256:ad726351108e32aa48ca13acda9478c6876846451f311f647fce8da76793a105
+    image: ghcr.io/suarezluis/lanscape:1.10.1@sha256:d721e867a259ef48447e07496181d6f6da60d0b5d4871ee8c9070243f996911c
     restart: on-failure
     # Node runs as PID 1; init reaps the speed test processes it starts
     init: true

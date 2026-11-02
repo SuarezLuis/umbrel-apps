@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.10.0"
+version: "1.10.1"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,10 +26,8 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  LANscape now recognizes phones and laptops when they switch to a new private
-  MAC address, using the IDs that Cast, AirPlay, HomeKit and UPnP devices
-  announce and what devices say when they join the network (DHCP). More devices
-  get names and models too, shown under Identity in each device's panel.
+  The device list has a Model column: the model a device announces, or its
+  operating system from what it says when it joins (like Android 14 or Windows).
 environment:
   - name: RESET_PASSWORD
     services:
