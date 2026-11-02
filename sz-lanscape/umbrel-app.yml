@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.5.1"
+version: "1.5.2"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,8 +26,9 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  A scheduled speed test that fails now tries once more a minute later, and a
-  timed-out test says which step it got stuck on.
+  On the AI agents (MCP) tab, the Copy buttons now work when LANscape is opened
+  over plain http, the Claude Code command adds LANscape for every folder, and
+  there are example questions to ask your agent.
 environment:
   - name: RESET_PASSWORD
     services:
