@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   server:
-    image: ghcr.io/suarezluis/lanscape:1.7.0@sha256:64a9fc5307d4ce30841b83539baa31a010055c235b2b1d1d2d0fd05939675980
+    image: ghcr.io/suarezluis/lanscape:1.8.0@sha256:999db4e2d2d978fa837af5fb20c263faee2a9bcf35f4e4cd6c5c638749eaafc3
     restart: on-failure
     # Node runs as PID 1; init reaps the speed test processes it starts
     init: true
@@ -12,5 +12,7 @@ services:
       PORT: 4545
       # Umbrel's per-install password, shown on the dashboard (deterministicPassword); seeds LANscape's password
       APP_PASSWORD: $APP_PASSWORD
+      # Tells LANscape it runs on Umbrel, so password help points at the Umbrel dashboard
+      UMBREL: "true"
     volumes:
       - ${APP_DATA_DIR}/data:/data
