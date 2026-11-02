@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.7.0"
+version: "1.8.0"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,10 +26,10 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  New Services page: watch web apps, open ports and DNS servers on your network
-  and get alerted when one goes down and when it's back. The Speed tests page
-  now has an Internet Health Score from 0 to 100, and outages go back a year.
-  Plus a small Buy me a coffee link in the sidebar.
+  New Assistant page: ask about your network in plain language and see the data
+  behind each answer. Connect Claude, OpenAI, or a model on your own network
+  like Ollama under Integrations, AI assistant. It's read-only and says where
+  your data goes.
 environment:
   - name: RESET_PASSWORD
     services:
