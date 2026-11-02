@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.4.0"
+version: "1.5.0"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,10 +26,11 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  New Integrations page, starting with Pi-hole. Connect your Pi-hole with an app
-  password to name devices that don't announce a name, see what each device
-  looks up (and how much Pi-hole blocks) in its panel on the Network page, and
-  stop sleepy phones from showing as away when they're still using the network.
+  AI agents can now ask LANscape about your network over MCP. Create a token
+  under Integrations → AI agents (MCP) and connect OpenClaw, Claude or another
+  MCP client: they get read-only access to speed tests, latency, devices and
+  alerts. Every request is logged, and you can replace or turn off the token
+  any time.
 environment:
   - name: RESET_PASSWORD
     services:
