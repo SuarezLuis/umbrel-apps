@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.5.0"
+version: "1.5.1"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -26,11 +26,8 @@ repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
 gallery: []
 releaseNotes: >-
-  AI agents can now ask LANscape about your network over MCP. Create a token
-  under Integrations → AI agents (MCP) and connect OpenClaw, Claude or another
-  MCP client: they get read-only access to speed tests, latency, devices and
-  alerts. Every request is logged, and you can replace or turn off the token
-  any time.
+  A scheduled speed test that fails now tries once more a minute later, and a
+  timed-out test says which step it got stuck on.
 environment:
   - name: RESET_PASSWORD
     services:
