@@ -24,7 +24,14 @@ submitter: SuarezLuis
 submission: https://github.com/SuarezLuis/umbrel-apps
 repo: https://github.com/SuarezLuis/umbrel-apps
 support: https://github.com/SuarezLuis/lanscape/issues
-gallery: []
+gallery:
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/1.jpg
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/2.jpg
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/3.jpg
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/4.jpg
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/5.jpg
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/6.jpg
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/7.jpg
 releaseNotes: >-
   The device list has a Model column: the model a device announces, or its
   operating system from what it says when it joins (like Android 14 or Windows).
