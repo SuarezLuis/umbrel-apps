@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.11.0"
+version: "1.12.0"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -33,10 +33,10 @@ gallery:
   - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/6.jpg
   - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/7.jpg
 releaseNotes: >-
-  See which ports each device has open and what actually answers on them,
-  like Pi-hole, Home Assistant or Plex, next to what usually runs on that
-  port. Scan a device from its panel, or schedule a port scan of every
-  device on the Automations page. The device list has a Ports column.
+  Get an alert when a device opens a new port, like a camera suddenly
+  answering on Telnet (on by default), and optionally when one closes. Each
+  automation has a Run now button that runs it straight away without
+  changing its schedule.
 environment:
   - name: RESET_PASSWORD
     services:
