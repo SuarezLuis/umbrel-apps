@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.13.0"
+version: "1.14.0"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -32,12 +32,14 @@ gallery:
   - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/5.jpg
   - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/6.jpg
   - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/7.jpg
+  - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/8.jpg
 releaseNotes: >-
-  Find out which device is which without unplugging anything: with Pi-hole
-  connected, pause a device's internet for a few minutes from its panel, and
-  whatever stops loading is that device. Devices that don't name their model
-  now show a best guess (camera, Roku, Android phone, home server…) with the
-  clues behind it.
+  The assistant can now suggest changes, like naming a device, marking it
+  known, setting its alerts or watching a service, and nothing changes until
+  you approve it. AI agents get the same with a separate change token. Every
+  change is listed and can be undone. Each device can also have all 65,535
+  ports scanned, with progress and a Stop button, and flight-tracking feeders
+  (Flightradar24, tar1090) are recognized.
 environment:
   - name: RESET_PASSWORD
     services:
