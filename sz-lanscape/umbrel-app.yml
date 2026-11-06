@@ -4,7 +4,7 @@ name: LANscape
 tagline: See what's happening on your home network
 icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-lanscape/icon.svg
 category: networking
-version: "1.14.0"
+version: "1.14.1"
 port: 4545
 description: >-
   LANscape watches your home network from your Umbrel. Run speed tests on
@@ -34,12 +34,9 @@ gallery:
   - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/7.jpg
   - https://raw.githubusercontent.com/SuarezLuis/lanscape/master/docs/assets/gallery/8.jpg
 releaseNotes: >-
-  The assistant can now suggest changes, like naming a device, marking it
-  known, setting its alerts or watching a service, and nothing changes until
-  you approve it. AI agents get the same with a separate change token. Every
-  change is listed and can be undone. Each device can also have all 65,535
-  ports scanned, with progress and a Stop button, and flight-tracking feeders
-  (Flightradar24, tar1090) are recognized.
+  Small fixes: the Known device switch responds instantly, switches show a
+  pointer cursor, and pages show a spinner while they load instead of
+  appearing empty.
 environment:
   - name: RESET_PASSWORD
     services:
