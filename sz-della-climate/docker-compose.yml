@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: sz-della-climate_server_1
+      APP_PORT: 4646
+
+  server:
+    image: ghcr.io/suarezluis/della-climate:0.1.0
+    restart: on-failure
+    init: true
+    environment:
+      PORT: 4646
+    volumes:
+      - ${APP_DATA_DIR}/data:/data

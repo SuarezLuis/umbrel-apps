@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: sz-della-climate
+name: Della Climate
+tagline: Steer your mini-split from a sensor where you actually sit
+icon: https://raw.githubusercontent.com/SuarezLuis/umbrel-apps/master/sz-della-climate/icon.svg
+category: automation
+version: "0.1.0"
+port: 4646
+description: >-
+  A mini-split measures the air at its indoor unit, up near the ceiling, so it
+  often stops before the room is comfortable or runs past it. Della Climate
+  reads an ESPHome temperature sensor where you sit and nudges the mini-split's
+  setpoint one degree at a time until the room matches your target. It talks
+  to the unit over your home network with Tuya's local protocol, so it keeps
+  working when the internet is down, and it never turns the unit on or off.
+
+
+  You need the unit's Tuya local key (from the tinytuya wizard) and an ESPHome
+  sensor. Setup steps are in the app's README.
+developer: SuarezLuis
+website: https://github.com/SuarezLuis/della-climate
+submitter: SuarezLuis
+submission: https://github.com/SuarezLuis/umbrel-apps
+repo: https://github.com/SuarezLuis/della-climate
+support: https://github.com/SuarezLuis/della-climate/issues
+gallery: []
+releaseNotes: >-
+  First version.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
